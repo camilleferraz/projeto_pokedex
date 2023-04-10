@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 3rem;
+}
+
+.button {
+  background-color: #4da6ff;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.header-logo img{
+  width: 15%;
+  height: 15%;
+}

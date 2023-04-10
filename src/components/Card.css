@@ -1,0 +1,168 @@
+.card {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.card-body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.card-body img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-buttons button {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  color: #888;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-buttons button:hover {
+  background-color: #ccc;
+  transform: scale(1.05);
+}
+
+/*  */
+
+.grass {
+  background-color: #9bcc50;
+}
+
+.fire {
+  background-color: #fd7d24;
+}
+
+.water {
+  background-color: #4592c4;
+}
+
+.electric {
+  background-color: #eed535;
+}
+
+.normal {
+  background-color: #a4acaf;
+}
+
+.fighting {
+  background-color: #d56723;
+}
+
+.poison {
+  background-color: #b97fc9;
+}
+
+.ground {
+  background-color: #ab9842;
+}
+
+.flying {
+  background-color: #3dc7ef;
+}
+
+.psychic {
+  background-color: #f366b9;
+}
+
+.bug {
+  background-color: #729f3f;
+}
+
+.rock {
+  background-color: #a38c21;
+}
+
+.ghost {
+  background-color: #7b62a3;
+}
+
+.dragon {
+  background-color: #53a4cf;
+}
+
+.dark {
+  background-color: #707070;
+}
+
+.steel {
+  background-color: #9eb7b8;
+}
+
+.fairy {
+  background-color: #fdb9e9;
+}
+
+.pokemon-card.grass {
+  background-color: #78c850;
+}
+
+.pokemon-card.fire {
+  background-color: #f08030;
+}
+
+.pokemon-card.water {
+  background-color: #6890f0;
+}
+
+.pokemon-card.electric {
+  background-color: #f8d030;
+}
+
+.pokemon-card.bug {
+  background-color: #a8b820;
+}
+
+.pokemon-card.normal {
+  background-color: #a8a878;
+}
+
+.pokemon-card.poison {
+  background-color: #a040a0;
+}
+
+.pokemon-card.flying {
+  background-color: #a890f0;
+}
+
+.pokemon-card.fighting {
+  background-color: #c03028;
+}
+
+.pokemon-card.rock {
+  background-color: #b8a038;
+}
+
